@@ -11,3 +11,10 @@ characteristic of the program :
   items when the time to live limit is reached. This is nice for reducing memory pressure for applications that have 
   long idle time in between accessing the cached objects.
 * We can also see all the operations usage in class: CacheMain.java
+
+Operations :
+------------
+put(K,V): put the object in cache 
+get(K): Get the object based on key
+remove(k) : Remove the object from cache 
+cleanup() : to clean up entire cache.
